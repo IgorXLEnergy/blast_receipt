@@ -1,0 +1,13 @@
+.env
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+service/.paddle-cache/
+service/uploads/
+laravel-adapter/vendor/
+laravel-adapter/storage/*.key
+.idea/
+.vscode/
