@@ -11,3 +11,4 @@ laravel-adapter/vendor/
 laravel-adapter/storage/*.key
 .idea/
 .vscode/
+demo/dist/

@@ -3,43 +3,36 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>BLAST Receipt Lab</title>
+  <title>BLAST Receipt Lab — demo</title>
   <link rel="stylesheet" href="/static/styles.css" />
 </head>
 <body>
   <main class="shell">
     <header class="topbar">
       <div>
-        <div class="eyebrow">BLAST INTERNAL TOOL</div>
+        <div class="eyebrow">BLAST · DEMO NA SPOTKANIE</div>
         <h1>Receipt Intelligence Lab</h1>
-        <p>Wrzuć paragon i sprawdź OCR, SKU BLAST, liczbę sztuk, cenę oraz kandydatów do analizy koszyka.</p>
+        <p>Dwa rzeczywiste testy OCR. Wybierz przykład i zobacz zapisany wynik analizy.</p>
       </div>
-      <span id="health" class="pill neutral">Sprawdzanie OCR…</span>
+      <span class="pill ok">Zapisane wyniki · bez OCR na żywo</span>
     </header>
 
     <section class="grid two">
       <article class="card upload-card">
-        <h2>1. Paragon</h2>
-        <label id="dropzone" class="dropzone" for="file">
-          <input id="file" type="file" accept="image/jpeg,image/png,image/webp" />
-          <div class="drop-icon">＋</div>
-          <strong>Wybierz lub przeciągnij zdjęcie</strong>
-          <span>JPG, PNG lub WEBP · maks. 12 MB</span>
-        </label>
-        <div id="previewWrap" class="preview-wrap hidden">
-          <img id="preview" alt="Podgląd paragonu" />
-          <div class="file-meta">
-            <strong id="fileName"></strong>
-            <span id="fileSize"></span>
-          </div>
+        <h2>1. Wybierz zapisany test</h2>
+        <p>To odtworzenie wcześniejszych analiz PaddleOCR. Demo nie analizuje nowych zdjęć.</p>
+        <div class="demo-choices" role="group" aria-label="Przykładowe paragony">
+          <button class="secondary" data-case="first" aria-pressed="false">Carrefour · 1 BLAST</button>
+          <button class="secondary" data-case="second" aria-pressed="false">Lewiatan · 2 BLAST</button>
         </div>
-        <button id="analyzeBtn" class="primary" disabled>Analizuj paragon</button>
-        <div id="error" class="error hidden"></div>
+        <p id="sampleDescription"></p>
+        <details><summary>Zanonimizowany zapis paragonu z OCR</summary><pre id="receiptText"></pre></details>
+        <div id="error" class="error hidden" role="alert"></div>
       </article>
 
       <article class="card">
-        <h2>2. Wynik</h2>
-        <div id="emptyResult" class="empty-state">Wynik analizy pojawi się tutaj.</div>
+        <h2>2. Zapisany wynik systemu</h2>
+        <div id="emptyResult" class="empty-state">Ładowanie zapisanego przykładu…</div>
         <div id="result" class="hidden">
           <p id="reviewReason"></p>
           <div class="metrics">
@@ -61,28 +54,33 @@
 
     <section id="details" class="hidden">
       <article class="card">
+        <h2>Potwierdzenie użytkownika — poza OCR</h2>
+        <p id="confirmedProducts"></p>
+        <p>To ręcznie potwierdzone zakupy. System nie ustalił tych wariantów z samego paragonu.</p>
+      </article>
+      <article class="card">
+        <h2>Co zmieniły pierwsze testy</h2>
+        <p id="beforeAfter"></p>
+      </article>
+      <article class="card">
         <div class="section-head"><div><h2>Rozpoznane produkty BLAST</h2><p>SKU, ilość, cena i źródłowy wiersz OCR.</p></div></div>
         <div class="table-wrap"><table><thead><tr><th>Produkt</th><th>Ilość</th><th>Cena / szt.</th><th>Po rabacie</th><th>Łącznie</th><th>Confidence</th></tr></thead><tbody id="blastRows"></tbody></table></div>
       </article>
 
       <article class="card">
-        <div class="section-head"><div><h2>Kandydaci z koszyka</h2><p>Na tym etapie zachowujemy surowe nazwy. Posłużą do późniejszego mapowania „frequently bought with BLAST”.</p></div></div>
+        <div class="section-head"><div><h2>Kandydaci z koszyka</h2><p>Na tym etapie zachowujemy surowe nazwy. To oddzielne pozycje koszyka, poza produktami BLAST.</p></div></div>
         <div class="table-wrap"><table><thead><tr><th>Wiersz</th><th>Ilość</th><th>Cena / szt.</th><th>Łącznie</th></tr></thead><tbody id="basketRows"></tbody></table></div>
       </article>
 
       <article class="card">
-        <div class="section-head"><div><h2>Surowy OCR</h2><p>Ważne przy pierwszych testach — tu zobaczymy, gdzie model popełnia błędy.</p></div><button id="copyJson" class="secondary">Kopiuj JSON</button></div>
+        <div class="section-head"><div><h2>Zanonimizowany OCR</h2><p>Zachowane odczyty produktów i cen z rzeczywistego testu.</p></div><button id="copyJson" class="secondary">Kopiuj JSON</button></div>
         <pre id="rawOcr"></pre>
         <details><summary>Pełny JSON odpowiedzi</summary><pre id="jsonOutput"></pre></details>
       </article>
 
-      <article class="card">
-        <div class="section-head"><div><h2>Ostatnie testy</h2><p>Zapisywane lokalnie w tej przeglądarce, bez wysyłania historii na serwer.</p></div><button id="clearHistory" class="secondary">Wyczyść</button></div>
-        <div id="history" class="history"></div>
-      </article>
     </section>
   </main>
   <script src="/static/result.js"></script>
-  <script src="/static/app.js"></script>
+  <script src="/static/demo.js"></script>
 </body>
 </html>

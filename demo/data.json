@@ -1,0 +1,576 @@
+{
+  "first": {
+    "description": "Carrefour: ogólny opis BLAST, bez informacji o smaku. 1 sztuka za 1,99 zł.",
+    "change": "Przed poprawką: odrzucenie jako brak BLAST. Teraz: wykryta marka, 1 sztuka za 1,99 zł i ręczna weryfikacja wariantu.",
+    "confirmed": [
+      "1 × BLAST Energy Drink Very Nice Kaktus"
+    ],
+    "result": {
+      "decision": "manual_review",
+      "confidence": 0.0,
+      "review_reasons": [
+        "variant_unresolved"
+      ],
+      "retailer": {
+        "code": "CARREFOUR",
+        "name": "Carrefour",
+        "confidence": 0.995
+      },
+      "purchase_date": "2026-10-06",
+      "blast": {
+        "found": true,
+        "quantity": 1,
+        "spend": 1.99,
+        "average_effective_unit_price": 1.99,
+        "products": [
+          {
+            "sku": null,
+            "canonical_name": "BLAST — wariant nieustalony",
+            "quantity": 1,
+            "unit_price": 1.99,
+            "line_total": 1.99,
+            "discount_total": 0.0,
+            "effective_unit_price": 1.99,
+            "effective_total": 1.99,
+            "price_source": "qty_x_unit",
+            "arithmetic_ok": true,
+            "match_score": 0.0,
+            "ocr_confidence": 0.9909,
+            "confidence": 0.0,
+            "match_method": "brand_only",
+            "variant_status": "unresolved",
+            "brand_confidence": 0.9909,
+            "variant_confidence": 0.0,
+            "reported_family": null,
+            "source_lines": [
+              "C_NAPOJ ENER BLAST"
+            ],
+            "line_index": 12
+          }
+        ]
+      },
+      "basket_candidates": [],
+      "ocr": {
+        "line_count": 34,
+        "lines": [
+          {
+            "index": 0,
+            "text": "CARREFOUR",
+            "confidence": 0.5322006344795227,
+            "box": null
+          },
+          {
+            "index": 1,
+            "text": "",
+            "confidence": 0.7949278950691223,
+            "box": null
+          },
+          {
+            "index": 2,
+            "text": "",
+            "confidence": 0.9953025579452515,
+            "box": null
+          },
+          {
+            "index": 3,
+            "text": "",
+            "confidence": 0.9898340106010437,
+            "box": null
+          },
+          {
+            "index": 4,
+            "text": "",
+            "confidence": 0.9932321310043335,
+            "box": null
+          },
+          {
+            "index": 5,
+            "text": "",
+            "confidence": 0.9538993239402771,
+            "box": null
+          },
+          {
+            "index": 6,
+            "text": "",
+            "confidence": 0.9872225522994995,
+            "box": null
+          },
+          {
+            "index": 7,
+            "text": "",
+            "confidence": 0.9823978543281555,
+            "box": null
+          },
+          {
+            "index": 8,
+            "text": "2026-10-06",
+            "confidence": 0.9962843656539917,
+            "box": null
+          },
+          {
+            "index": 9,
+            "text": "",
+            "confidence": 0.9752923846244812,
+            "box": null
+          },
+          {
+            "index": 10,
+            "text": "PARAGON FISKALNY",
+            "confidence": 0.9999681711196899,
+            "box": null
+          },
+          {
+            "index": 11,
+            "text": "1,99 C",
+            "confidence": 0.9846301674842834,
+            "box": null
+          },
+          {
+            "index": 12,
+            "text": "C_NAPOJ ENER BLAST",
+            "confidence": 0.990881085395813,
+            "box": null
+          },
+          {
+            "index": 13,
+            "text": "1szt*1,99=1",
+            "confidence": 0.9930486083030701,
+            "box": null
+          },
+          {
+            "index": 14,
+            "text": "1,99",
+            "confidence": 0.9534162282943726,
+            "box": null
+          },
+          {
+            "index": 15,
+            "text": "Sprzed. opod. PTU C",
+            "confidence": 0.9972515106201172,
+            "box": null
+          },
+          {
+            "index": 16,
+            "text": "0,09",
+            "confidence": 0.954170286655426,
+            "box": null
+          },
+          {
+            "index": 17,
+            "text": "Kwota C 05,00%",
+            "confidence": 0.991771399974823,
+            "box": null
+          },
+          {
+            "index": 18,
+            "text": "Podatek PTU",
+            "confidence": 0.9991886019706726,
+            "box": null
+          },
+          {
+            "index": 19,
+            "text": "0.09",
+            "confidence": 0.887285590171814,
+            "box": null
+          },
+          {
+            "index": 20,
+            "text": "SUMA",
+            "confidence": 0.9981015920639038,
+            "box": null
+          },
+          {
+            "index": 21,
+            "text": "A PLN",
+            "confidence": 0.8617753982543945,
+            "box": null
+          },
+          {
+            "index": 22,
+            "text": "99",
+            "confidence": 0.9999139308929443,
+            "box": null
+          },
+          {
+            "index": 23,
+            "text": "",
+            "confidence": 0.9996644854545593,
+            "box": null
+          },
+          {
+            "index": 24,
+            "text": "",
+            "confidence": 0.9999272227287292,
+            "box": null
+          },
+          {
+            "index": 25,
+            "text": "",
+            "confidence": 0.98809415102005,
+            "box": null
+          },
+          {
+            "index": 26,
+            "text": "",
+            "confidence": 0.9006883502006531,
+            "box": null
+          },
+          {
+            "index": 27,
+            "text": "",
+            "confidence": 0.9988149404525757,
+            "box": null
+          },
+          {
+            "index": 28,
+            "text": "",
+            "confidence": 0.8977709412574768,
+            "box": null
+          },
+          {
+            "index": 29,
+            "text": "",
+            "confidence": 0.9541888236999512,
+            "box": null
+          },
+          {
+            "index": 30,
+            "text": "",
+            "confidence": 0.9996430277824402,
+            "box": null
+          },
+          {
+            "index": 31,
+            "text": "",
+            "confidence": 0.9999855160713196,
+            "box": null
+          },
+          {
+            "index": 32,
+            "text": "",
+            "confidence": 0.9825307130813599,
+            "box": null
+          },
+          {
+            "index": 33,
+            "text": "",
+            "confidence": 0.9999899864196777,
+            "box": null
+          }
+        ],
+        "raw_text": "CARREFOUR\n2026-10-06\nPARAGON FISKALNY\n1,99 C\nC_NAPOJ ENER BLAST\n1szt*1,99=1\n1,99\nSprzed. opod. PTU C\n0,09\nKwota C 05,00%\nPodatek PTU\n0.09\nSUMA\nA PLN\n99"
+      }
+    }
+  },
+  "second": {
+    "description": "Lewiatan: dwa opisy BOOST, choć kupiono Classic i Clementine. 2 sztuki za 5,98 zł.",
+    "change": "Przed poprawką: 5,48 zł i domyślny Triple Berry, bez sklepu i daty. Teraz: 5,98 zł, Lewiatan, poprawna data i dwa nieustalone warianty.",
+    "confirmed": [
+      "1 × BLAST Energy Drink Very Nice Klasyk",
+      "1 × BLAST Boost Clementine"
+    ],
+    "result": {
+      "decision": "manual_review",
+      "confidence": 0.0,
+      "review_reasons": [
+        "variant_unresolved"
+      ],
+      "retailer": {
+        "code": "LEWIATAN",
+        "name": "Lewiatan",
+        "confidence": 0.995
+      },
+      "purchase_date": "2026-10-06",
+      "blast": {
+        "found": true,
+        "quantity": 2,
+        "spend": 5.98,
+        "average_effective_unit_price": 2.99,
+        "products": [
+          {
+            "sku": null,
+            "canonical_name": "BLAST — wariant nieustalony",
+            "quantity": 1,
+            "unit_price": 2.99,
+            "line_total": 2.99,
+            "discount_total": 0.0,
+            "effective_unit_price": 2.99,
+            "effective_total": 2.99,
+            "price_source": "qty_x_unit",
+            "arithmetic_ok": true,
+            "match_score": 0.0,
+            "ocr_confidence": 0.9896,
+            "confidence": 0.0,
+            "match_method": "brand_only",
+            "variant_status": "unresolved",
+            "brand_confidence": 0.9896,
+            "variant_confidence": 0.0,
+            "reported_family": "BOOST",
+            "source_lines": [
+              "NAPÓJ BLAST BOOST 250ML"
+            ],
+            "line_index": 11
+          },
+          {
+            "sku": null,
+            "canonical_name": "BLAST — wariant nieustalony",
+            "quantity": 1,
+            "unit_price": 2.99,
+            "line_total": 2.99,
+            "discount_total": 0.0,
+            "effective_unit_price": 2.99,
+            "effective_total": 2.99,
+            "price_source": "qty_x_unit",
+            "arithmetic_ok": true,
+            "match_score": 0.0,
+            "ocr_confidence": 0.9815,
+            "confidence": 0.0,
+            "match_method": "brand_only",
+            "variant_status": "unresolved",
+            "brand_confidence": 0.9815,
+            "variant_confidence": 0.0,
+            "reported_family": "BOOST",
+            "source_lines": [
+              "NAPÓJ BLAST BOOST 250ML"
+            ],
+            "line_index": 14
+          }
+        ]
+      },
+      "basket_candidates": [
+        {
+          "line_index": 7,
+          "raw_name": "BATON KRÓWKA 40G PROMYK A",
+          "normalized_name": "BATON KROWKA 40G PROMYK A",
+          "quantity": 1,
+          "unit_price": 2.49,
+          "line_total": 2.49
+        },
+        {
+          "line_index": 9,
+          "raw_name": "BATON KRÓWKA 40G PROMYK A",
+          "normalized_name": "BATON KROWKA 40G PROMYK A",
+          "quantity": 1,
+          "unit_price": 2.49,
+          "line_total": 2.49
+        }
+      ],
+      "ocr": {
+        "line_count": 35,
+        "lines": [
+          {
+            "index": 0,
+            "text": "Lewiatan",
+            "confidence": 0.9999906420707703,
+            "box": null
+          },
+          {
+            "index": 1,
+            "text": "",
+            "confidence": 0.9999426007270813,
+            "box": null
+          },
+          {
+            "index": 2,
+            "text": "",
+            "confidence": 0.969642162322998,
+            "box": null
+          },
+          {
+            "index": 3,
+            "text": "",
+            "confidence": 0.9992454051971436,
+            "box": null
+          },
+          {
+            "index": 4,
+            "text": "",
+            "confidence": 0.999733567237854,
+            "box": null
+          },
+          {
+            "index": 5,
+            "text": "",
+            "confidence": 0.9999234676361084,
+            "box": null
+          },
+          {
+            "index": 6,
+            "text": "PARAGONFISKALNY",
+            "confidence": 0.9999869465827942,
+            "box": null
+          },
+          {
+            "index": 7,
+            "text": "BATON KRÓWKA 40G PROMYK A",
+            "confidence": 0.9825257658958435,
+            "box": null
+          },
+          {
+            "index": 8,
+            "text": "1SZT. ×2,49 2,49A",
+            "confidence": 0.9606953859329224,
+            "box": null
+          },
+          {
+            "index": 9,
+            "text": "BATON KRÓWKA 40G PROMYK A",
+            "confidence": 0.9871986508369446,
+            "box": null
+          },
+          {
+            "index": 10,
+            "text": "1SZT. ×2,49 2,49A",
+            "confidence": 0.970705509185791,
+            "box": null
+          },
+          {
+            "index": 11,
+            "text": "NAPÓJ BLAST BOOST 250ML",
+            "confidence": 0.9896178841590881,
+            "box": null
+          },
+          {
+            "index": 12,
+            "text": "PUSZ A",
+            "confidence": 0.9961778521537781,
+            "box": null
+          },
+          {
+            "index": 13,
+            "text": "1szt ×2,99 2,99A",
+            "confidence": 0.9553112983703613,
+            "box": null
+          },
+          {
+            "index": 14,
+            "text": "NAPÓJ BLAST BOOST 250ML",
+            "confidence": 0.9814587235450745,
+            "box": null
+          },
+          {
+            "index": 15,
+            "text": "PUSZ 3 A",
+            "confidence": 0.9612233638763428,
+            "box": null
+          },
+          {
+            "index": 16,
+            "text": "1szt x2,99 2,99A",
+            "confidence": 0.9920423626899719,
+            "box": null
+          },
+          {
+            "index": 17,
+            "text": "SPRZEDAZ OPODATKOWANA A",
+            "confidence": 0.9976920485496521,
+            "box": null
+          },
+          {
+            "index": 18,
+            "text": "10,96",
+            "confidence": 0.9998458027839661,
+            "box": null
+          },
+          {
+            "index": 19,
+            "text": "PTU A 23%",
+            "confidence": 0.9992204308509827,
+            "box": null
+          },
+          {
+            "index": 20,
+            "text": "2,05",
+            "confidence": 0.9994525909423828,
+            "box": null
+          },
+          {
+            "index": 21,
+            "text": "SUMA PTU",
+            "confidence": 0.9998005032539368,
+            "box": null
+          },
+          {
+            "index": 22,
+            "text": "2,05",
+            "confidence": 0.9945886731147766,
+            "box": null
+          },
+          {
+            "index": 23,
+            "text": "SUMA",
+            "confidence": 0.9999450445175171,
+            "box": null
+          },
+          {
+            "index": 24,
+            "text": "PLN",
+            "confidence": 0.9999960064888,
+            "box": null
+          },
+          {
+            "index": 25,
+            "text": "10,96",
+            "confidence": 0.9988468885421753,
+            "box": null
+          },
+          {
+            "index": 26,
+            "text": "",
+            "confidence": 0.9800329804420471,
+            "box": null
+          },
+          {
+            "index": 27,
+            "text": "",
+            "confidence": 0.9997726082801819,
+            "box": null
+          },
+          {
+            "index": 28,
+            "text": "",
+            "confidence": 0.9968920946121216,
+            "box": null
+          },
+          {
+            "index": 29,
+            "text": "",
+            "confidence": 0.9833701848983765,
+            "box": null
+          },
+          {
+            "index": 30,
+            "text": "2026-10-06 14:59",
+            "confidence": 0.9991905689239502,
+            "box": null
+          },
+          {
+            "index": 31,
+            "text": "",
+            "confidence": 0.9982683062553406,
+            "box": null
+          },
+          {
+            "index": 32,
+            "text": "",
+            "confidence": 0.9015623927116394,
+            "box": null
+          },
+          {
+            "index": 33,
+            "text": "",
+            "confidence": 0.9991006851196289,
+            "box": null
+          },
+          {
+            "index": 34,
+            "text": "",
+            "confidence": 0.9999877214431763,
+            "box": null
+          }
+        ],
+        "raw_text": "Lewiatan\nPARAGONFISKALNY\nBATON KRÓWKA 40G PROMYK A\n1SZT. ×2,49 2,49A\nBATON KRÓWKA 40G PROMYK A\n1SZT. ×2,49 2,49A\nNAPÓJ BLAST BOOST 250ML\nPUSZ A\n1szt ×2,99 2,99A\nNAPÓJ BLAST BOOST 250ML\nPUSZ 3 A\n1szt x2,99 2,99A\nSPRZEDAZ OPODATKOWANA A\n10,96\nPTU A 23%\n2,05\nSUMA PTU\n2,05\nSUMA\nPLN\n10,96\n2026-10-06 14:59"
+      }
+    }
+  }
+}

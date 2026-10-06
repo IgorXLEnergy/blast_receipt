@@ -1,0 +1,8 @@
+.demo-choices { display:flex; gap:10px; flex-wrap:wrap; margin:20px 0; }
+.demo-choices button { flex:1; min-height:48px; }
+.demo-choices button[aria-pressed="true"] { border-color:var(--accent); color:var(--accent); }
+.demo-choices button:disabled { opacity:.4; cursor:wait; }
+button:focus-visible, summary:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+#confirmedProducts { color:var(--text); margin-bottom:8px; }
+#reviewReason { margin-bottom:12px; }
+@media (max-width:480px) { .demo-choices { flex-direction:column; } .confidence-row { grid-template-columns:1fr auto; } .confidence-row .bar { display:none; } }

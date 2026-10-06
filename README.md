@@ -1,5 +1,8 @@
 # BLAST Receipt Intelligence
 
+Meeting demo on Vercel: see [demo/README.md](demo/README.md). It displays two
+recorded, anonymized OCR results without a backend or live image analysis.
+
 Self-hosted receipt OCR / parsing lab for the BLAST app.
 
 **Current version: v0.2 (test harness, not production competition eligibility).**
