@@ -1,0 +1,44 @@
+[
+  {
+    "sku": "BLAST-ENERGY-KAKTUS",
+    "canonical_name": "BLAST Energy Drink Very Nice Kaktus",
+    "keywords": ["BLAST", "KAKTUS"],
+    "aliases": ["BLAST ENERGY DRINK VERY NICE KAKTUS", "BLAST KAKTUS", "BLAST ENERGY KAKTUS"]
+  },
+  {
+    "sku": "BLAST-ENERGY-MANGO-ANANAS",
+    "canonical_name": "BLAST Energy Drink Very Nice Mango-Ananas",
+    "keywords": ["BLAST", "MANGO", "ANANAS"],
+    "aliases": ["BLAST ENERGY DRINK VERY NICE MANGO ANANAS", "BLAST MANGO ANANAS", "BLAST ENERGY MANGO ANANAS"]
+  },
+  {
+    "sku": "BLAST-ENERGY-KLASYK",
+    "canonical_name": "BLAST Energy Drink Very Nice Klasyk",
+    "keywords": ["BLAST", "KLASYK"],
+    "aliases": ["BLAST ENERGY DRINK VERY NICE KLASYK", "BLAST KLASYK", "BLAST ENERGY KLASYK"]
+  },
+  {
+    "sku": "BLAST-ENERGY-ARBUZ",
+    "canonical_name": "BLAST Energy Drink Very Nice Arbuz",
+    "keywords": ["BLAST", "ARBUZ"],
+    "aliases": ["BLAST ENERGY DRINK VERY NICE ARBUZ", "BLAST ARBUZ", "BLAST ENERGY ARBUZ"]
+  },
+  {
+    "sku": "BLAST-BOOST-TRIPLE-BERRY",
+    "canonical_name": "BLAST Boost Triple Berry",
+    "keywords": ["BLAST", "BOOST", "TRIPLE", "BERRY"],
+    "aliases": ["BLAST BOOST TRIPLE BERRY", "BOOST TRIPLE BERRY"]
+  },
+  {
+    "sku": "BLAST-BOOST-CLEMENTINE",
+    "canonical_name": "BLAST Boost Clementine",
+    "keywords": ["BLAST", "BOOST", "CLEMENTINE"],
+    "aliases": ["BLAST BOOST CLEMENTINE", "BOOST CLEMENTINE"]
+  },
+  {
+    "sku": "BLAST-BOOST-KIWI",
+    "canonical_name": "BLAST Boost Kiwi",
+    "keywords": ["BLAST", "BOOST", "KIWI"],
+    "aliases": ["BLAST BOOST KIWI", "BOOST KIWI"]
+  }
+]

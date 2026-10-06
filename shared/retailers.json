@@ -1,0 +1,11 @@
+[
+  {"code":"BIEDRONKA","name":"Biedronka","markers":["BIEDRONKA","JERONIMO MARTINS"]},
+  {"code":"LIDL","name":"Lidl","markers":["LIDL","LIDL SP Z O O"]},
+  {"code":"CARREFOUR","name":"Carrefour","markers":["CARREFOUR","CARREFOUR POLSKA"]},
+  {"code":"DINO","name":"Dino","markers":["DINO POLSKA","DINO"]},
+  {"code":"KAUFLAND","name":"Kaufland","markers":["KAUFLAND"]},
+  {"code":"AUCHAN","name":"Auchan","markers":["AUCHAN"]},
+  {"code":"ZABKA","name":"Żabka","markers":["ZABKA","ŻABKA"]},
+  {"code":"ALDI","name":"ALDI","markers":["ALDI"]},
+  {"code":"NETTO","name":"Netto","markers":["NETTO"]}
+]

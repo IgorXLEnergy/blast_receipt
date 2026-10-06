@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BLAST Receipt Lab</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">BLAST INTERNAL TOOL</div>
+        <h1>Receipt Intelligence Lab</h1>
+        <p>Wrzuć paragon i sprawdź OCR, SKU BLAST, liczbę sztuk, cenę oraz kandydatów do analizy koszyka.</p>
+      </div>
+      <span id="health" class="pill neutral">Sprawdzanie OCR…</span>
+    </header>
+
+    <section class="grid two">
+      <article class="card upload-card">
+        <h2>1. Paragon</h2>
+        <label id="dropzone" class="dropzone" for="file">
+          <input id="file" type="file" accept="image/jpeg,image/png,image/webp" />
+          <div class="drop-icon">＋</div>
+          <strong>Wybierz lub przeciągnij zdjęcie</strong>
+          <span>JPG, PNG lub WEBP · maks. 12 MB</span>
+        </label>
+        <div id="previewWrap" class="preview-wrap hidden">
+          <img id="preview" alt="Podgląd paragonu" />
+          <div class="file-meta">
+            <strong id="fileName"></strong>
+            <span id="fileSize"></span>
+          </div>
+        </div>
+        <button id="analyzeBtn" class="primary" disabled>Analizuj paragon</button>
+        <div id="error" class="error hidden"></div>
+      </article>
+
+      <article class="card">
+        <h2>2. Wynik</h2>
+        <div id="emptyResult" class="empty-state">Wynik analizy pojawi się tutaj.</div>
+        <div id="result" class="hidden">
+          <div class="metrics">
+            <div class="metric"><span>Decyzja</span><strong id="decision"></strong></div>
+            <div class="metric"><span>Sieć</span><strong id="retailer"></strong></div>
+            <div class="metric"><span>Data</span><strong id="purchaseDate"></strong></div>
+            <div class="metric"><span>BLAST szt.</span><strong id="qty"></strong></div>
+            <div class="metric"><span>BLAST spend</span><strong id="spend"></strong></div>
+            <div class="metric"><span>Śr. cena / szt.</span><strong id="avgPrice"></strong></div>
+          </div>
+          <div class="confidence-row">
+            <span>Confidence</span>
+            <div class="bar"><div id="confidenceBar"></div></div>
+            <strong id="confidence"></strong>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="details" class="hidden">
+      <article class="card">
+        <div class="section-head"><div><h2>Rozpoznane produkty BLAST</h2><p>SKU, ilość, cena i źródłowy wiersz OCR.</p></div></div>
+        <div class="table-wrap"><table><thead><tr><th>Produkt</th><th>Ilość</th><th>Cena / szt.</th><th>Po rabacie</th><th>Łącznie</th><th>Confidence</th></tr></thead><tbody id="blastRows"></tbody></table></div>
+      </article>
+
+      <article class="card">
+        <div class="section-head"><div><h2>Kandydaci z koszyka</h2><p>Na tym etapie zachowujemy surowe nazwy. Posłużą do późniejszego mapowania „frequently bought with BLAST”.</p></div></div>
+        <div class="table-wrap"><table><thead><tr><th>Wiersz</th><th>Ilość</th><th>Cena / szt.</th><th>Łącznie</th></tr></thead><tbody id="basketRows"></tbody></table></div>
+      </article>
+
+      <article class="card">
+        <div class="section-head"><div><h2>Surowy OCR</h2><p>Ważne przy pierwszych testach — tu zobaczymy, gdzie model popełnia błędy.</p></div><button id="copyJson" class="secondary">Kopiuj JSON</button></div>
+        <pre id="rawOcr"></pre>
+        <details><summary>Pełny JSON odpowiedzi</summary><pre id="jsonOutput"></pre></details>
+      </article>
+
+      <article class="card">
+        <div class="section-head"><div><h2>Ostatnie testy</h2><p>Zapisywane lokalnie w tej przeglądarce, bez wysyłania historii na serwer.</p></div><button id="clearHistory" class="secondary">Wyczyść</button></div>
+        <div id="history" class="history"></div>
+      </article>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
