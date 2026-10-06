@@ -1,0 +1,183 @@
+{
+  "ocr_lines": [
+    {
+      "text": "CARREFOUR",
+      "confidence": 0.5322006344795227,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.7949278950691223,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9953025579452515,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9898340106010437,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9932321310043335,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9538993239402771,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9872225522994995,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9823978543281555,
+      "box": null
+    },
+    {
+      "text": "2026-10-06",
+      "confidence": 0.9962843656539917,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9752923846244812,
+      "box": null
+    },
+    {
+      "text": "PARAGON FISKALNY",
+      "confidence": 0.9999681711196899,
+      "box": null
+    },
+    {
+      "text": "1,99 C",
+      "confidence": 0.9846301674842834,
+      "box": null
+    },
+    {
+      "text": "C_NAPOJ ENER BLAST",
+      "confidence": 0.990881085395813,
+      "box": null
+    },
+    {
+      "text": "1szt*1,99=1",
+      "confidence": 0.9930486083030701,
+      "box": null
+    },
+    {
+      "text": "1,99",
+      "confidence": 0.9534162282943726,
+      "box": null
+    },
+    {
+      "text": "Sprzed. opod. PTU C",
+      "confidence": 0.9972515106201172,
+      "box": null
+    },
+    {
+      "text": "0,09",
+      "confidence": 0.954170286655426,
+      "box": null
+    },
+    {
+      "text": "Kwota C 05,00%",
+      "confidence": 0.991771399974823,
+      "box": null
+    },
+    {
+      "text": "Podatek PTU",
+      "confidence": 0.9991886019706726,
+      "box": null
+    },
+    {
+      "text": "0.09",
+      "confidence": 0.887285590171814,
+      "box": null
+    },
+    {
+      "text": "SUMA",
+      "confidence": 0.9981015920639038,
+      "box": null
+    },
+    {
+      "text": "A PLN",
+      "confidence": 0.8617753982543945,
+      "box": null
+    },
+    {
+      "text": "99",
+      "confidence": 0.9999139308929443,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9996644854545593,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9999272227287292,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.98809415102005,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9006883502006531,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9988149404525757,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.8977709412574768,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9541888236999512,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9996430277824402,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9999855160713196,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9825307130813599,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9999899864196777,
+      "box": null
+    }
+  ],
+  "confirmed_products": [
+    {
+      "sku": "BLAST-ENERGY-KAKTUS",
+      "quantity": 1,
+      "unit_price": 1.99,
+      "line_total": 1.99
+    }
+  ],
+  "expected_spend": 1.99
+}

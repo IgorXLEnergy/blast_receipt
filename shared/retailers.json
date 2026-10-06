@@ -1,11 +1,530 @@
 [
-  {"code":"BIEDRONKA","name":"Biedronka","markers":["BIEDRONKA","JERONIMO MARTINS"]},
-  {"code":"LIDL","name":"Lidl","markers":["LIDL","LIDL SP Z O O"]},
-  {"code":"CARREFOUR","name":"Carrefour","markers":["CARREFOUR","CARREFOUR POLSKA"]},
-  {"code":"DINO","name":"Dino","markers":["DINO POLSKA","DINO"]},
-  {"code":"KAUFLAND","name":"Kaufland","markers":["KAUFLAND"]},
-  {"code":"AUCHAN","name":"Auchan","markers":["AUCHAN"]},
-  {"code":"ZABKA","name":"Żabka","markers":["ZABKA","ŻABKA"]},
-  {"code":"ALDI","name":"ALDI","markers":["ALDI"]},
-  {"code":"NETTO","name":"Netto","markers":["NETTO"]}
+  {
+    "code": "BIEDRONKA",
+    "name": "Biedronka",
+    "markers": [
+      "BIEDRONKA",
+      "JERONIMO MARTINS",
+      "Biedronka"
+    ]
+  },
+  {
+    "code": "LIDL",
+    "name": "Lidl",
+    "markers": [
+      "LIDL",
+      "LIDL SP Z O O",
+      "Lidl"
+    ]
+  },
+  {
+    "code": "CARREFOUR",
+    "name": "Carrefour",
+    "markers": [
+      "CARREFOUR",
+      "CARREFOUR POLSKA",
+      "Carrefour"
+    ]
+  },
+  {
+    "code": "DINO",
+    "name": "Dino",
+    "markers": [
+      "DINO POLSKA",
+      "DINO",
+      "Dino"
+    ]
+  },
+  {
+    "code": "KAUFLAND",
+    "name": "Kaufland",
+    "markers": [
+      "KAUFLAND",
+      "Kaufland"
+    ]
+  },
+  {
+    "code": "AUCHAN",
+    "name": "Auchan",
+    "markers": [
+      "AUCHAN",
+      "Auchan"
+    ]
+  },
+  {
+    "code": "ZABKA",
+    "name": "Żabka",
+    "markers": [
+      "ZABKA",
+      "ŻABKA",
+      "Żabka"
+    ]
+  },
+  {
+    "code": "ALDI",
+    "name": "ALDI",
+    "markers": [
+      "ALDI"
+    ]
+  },
+  {
+    "code": "NETTO",
+    "name": "Netto",
+    "markers": [
+      "NETTO",
+      "Netto"
+    ]
+  },
+  {
+    "code": "POLOMARKET",
+    "name": "Polomarket",
+    "markers": [
+      "Polomarket"
+    ]
+  },
+  {
+    "code": "CHATA_POLSKA",
+    "name": "Chata Polska",
+    "markers": [
+      "Chata Polska"
+    ]
+  },
+  {
+    "code": "INTERMARCHE",
+    "name": "Intermarché",
+    "markers": [
+      "Intermarché"
+    ]
+  },
+  {
+    "code": "BORYS",
+    "name": "Borys",
+    "markers": [
+      "Borys"
+    ]
+  },
+  {
+    "code": "LEWIATAN",
+    "name": "Lewiatan",
+    "markers": [
+      "Lewiatan"
+    ]
+  },
+  {
+    "code": "ALKOHOLE_SWIATA",
+    "name": "Alkohole Świata",
+    "markers": [
+      "Alkohole Świata"
+    ]
+  },
+  {
+    "code": "CARREFOUR_MARKET",
+    "name": "Carrefour Market",
+    "markers": [
+      "Carrefour Market"
+    ]
+  },
+  {
+    "code": "TWOJ_MARKET",
+    "name": "Twój Market",
+    "markers": [
+      "Twój Market"
+    ]
+  },
+  {
+    "code": "SPOLEM___PSS",
+    "name": "Społem / PSS",
+    "markers": [
+      "Społem",
+      "PSS",
+      "Społem / PSS"
+    ]
+  },
+  {
+    "code": "NASZ_SKLEP",
+    "name": "Nasz Sklep",
+    "markers": [
+      "Nasz Sklep"
+    ]
+  },
+  {
+    "code": "CARMEN",
+    "name": "Carmen",
+    "markers": [
+      "Carmen"
+    ]
+  },
+  {
+    "code": "GRAM_MARKET",
+    "name": "Gram Market",
+    "markers": [
+      "Gram Market"
+    ]
+  },
+  {
+    "code": "BORT-WIMAR",
+    "name": "Bort-Wimar",
+    "markers": [
+      "Bort-Wimar"
+    ]
+  },
+  {
+    "code": "ZIELONY_KOSZYK",
+    "name": "Zielony Koszyk",
+    "markers": [
+      "Zielony Koszyk"
+    ]
+  },
+  {
+    "code": "MALINKA_MARKET",
+    "name": "Malinka Market",
+    "markers": [
+      "Malinka Market"
+    ]
+  },
+  {
+    "code": "KAPRYS___POLSKI_SKLEP",
+    "name": "Kaprys / Polski Sklep",
+    "markers": [
+      "Kaprys",
+      "Polski Sklep",
+      "Kaprys / Polski Sklep"
+    ]
+  },
+  {
+    "code": "BLUMIS",
+    "name": "Blumiś",
+    "markers": [
+      "Blumiś"
+    ]
+  },
+  {
+    "code": "TOP_MARKET",
+    "name": "Top Market",
+    "markers": [
+      "Top Market"
+    ]
+  },
+  {
+    "code": "SEDAL",
+    "name": "Sedal",
+    "markers": [
+      "Sedal"
+    ]
+  },
+  {
+    "code": "MERKURY_MARKET",
+    "name": "Merkury Market",
+    "markers": [
+      "Merkury Market"
+    ]
+  },
+  {
+    "code": "PSB_MROWKA",
+    "name": "PSB Mrówka",
+    "markers": [
+      "PSB Mrówka"
+    ]
+  },
+  {
+    "code": "EUROSPAR",
+    "name": "EUROSPAR",
+    "markers": [
+      "EUROSPAR"
+    ]
+  },
+  {
+    "code": "DELIKATESY_CEZAR",
+    "name": "Delikatesy Cezar",
+    "markers": [
+      "Delikatesy Cezar"
+    ]
+  },
+  {
+    "code": "DELIKATESY_JUSTYNKA",
+    "name": "Delikatesy Justynka",
+    "markers": [
+      "Delikatesy Justynka"
+    ]
+  },
+  {
+    "code": "MOK-POL",
+    "name": "MOK-POL",
+    "markers": [
+      "MOK-POL"
+    ]
+  },
+  {
+    "code": "SPAR",
+    "name": "SPAR",
+    "markers": [
+      "SPAR"
+    ]
+  },
+  {
+    "code": "BRICOMARCHE",
+    "name": "Bricomarché",
+    "markers": [
+      "Bricomarché"
+    ]
+  },
+  {
+    "code": "DYSKONT_PALIWOWY",
+    "name": "Dyskont Paliwowy",
+    "markers": [
+      "Dyskont Paliwowy"
+    ]
+  },
+  {
+    "code": "VOLLMART",
+    "name": "Vollmart",
+    "markers": [
+      "Vollmart"
+    ]
+  },
+  {
+    "code": "DELIKATESY_T_J",
+    "name": "Delikatesy T&J",
+    "markers": [
+      "Delikatesy T&J"
+    ]
+  },
+  {
+    "code": "DELIKATESY_RIBENA",
+    "name": "Delikatesy Ribena",
+    "markers": [
+      "Delikatesy Ribena"
+    ]
+  },
+  {
+    "code": "DELIKATESY_SLONECZKO",
+    "name": "Delikatesy Słoneczko",
+    "markers": [
+      "Delikatesy Słoneczko"
+    ]
+  },
+  {
+    "code": "ZRODELKO",
+    "name": "Źródełko",
+    "markers": [
+      "Źródełko"
+    ]
+  },
+  {
+    "code": "SKLEP_POLSKI",
+    "name": "Sklep Polski",
+    "markers": [
+      "Sklep Polski"
+    ]
+  },
+  {
+    "code": "PARTNER",
+    "name": "Partner",
+    "markers": [
+      "Partner"
+    ]
+  },
+  {
+    "code": "APEXIM",
+    "name": "Apexim",
+    "markers": [
+      "Apexim"
+    ]
+  },
+  {
+    "code": "MAX_XAVIER",
+    "name": "Max Xavier",
+    "markers": [
+      "Max Xavier"
+    ]
+  },
+  {
+    "code": "MERKUS",
+    "name": "Merkus",
+    "markers": [
+      "Merkus"
+    ]
+  },
+  {
+    "code": "SKLEP_BINGO",
+    "name": "Sklep Bingo",
+    "markers": [
+      "Sklep Bingo"
+    ]
+  },
+  {
+    "code": "SUPECO",
+    "name": "Supeco",
+    "markers": [
+      "Supeco"
+    ]
+  },
+  {
+    "code": "ELECLERC",
+    "name": "E.Leclerc",
+    "markers": [
+      "E.Leclerc"
+    ]
+  },
+  {
+    "code": "MERKU_MARKET",
+    "name": "Merku Market",
+    "markers": [
+      "Merku Market"
+    ]
+  },
+  {
+    "code": "TRIP_FREE",
+    "name": "Trip Free",
+    "markers": [
+      "Trip Free"
+    ]
+  },
+  {
+    "code": "ABC",
+    "name": "ABC",
+    "markers": [
+      "ABC"
+    ]
+  },
+  {
+    "code": "FAKTORIA",
+    "name": "Faktoria",
+    "markers": [
+      "Faktoria"
+    ]
+  },
+  {
+    "code": "TRAVEL_FREE",
+    "name": "Travel Free",
+    "markers": [
+      "Travel Free"
+    ]
+  },
+  {
+    "code": "KARAFKA",
+    "name": "Karafka",
+    "markers": [
+      "Karafka"
+    ]
+  },
+  {
+    "code": "GROSZEK",
+    "name": "Groszek",
+    "markers": [
+      "Groszek"
+    ]
+  },
+  {
+    "code": "PALUSZEK",
+    "name": "Paluszek",
+    "markers": [
+      "Paluszek"
+    ]
+  },
+  {
+    "code": "CHORTEN",
+    "name": "Chorten",
+    "markers": [
+      "Chorten"
+    ]
+  },
+  {
+    "code": "HAPIT",
+    "name": "Hapit",
+    "markers": [
+      "Hapit"
+    ]
+  },
+  {
+    "code": "NASZE_MARKETY",
+    "name": "Nasze Markety",
+    "markers": [
+      "Nasze Markety"
+    ]
+  },
+  {
+    "code": "PIEKIELKO",
+    "name": "Piekiełko",
+    "markers": [
+      "Piekiełko"
+    ]
+  },
+  {
+    "code": "DELIKATESY_FART",
+    "name": "Delikatesy Fart",
+    "markers": [
+      "Delikatesy Fart"
+    ]
+  },
+  {
+    "code": "BEMAR",
+    "name": "Bemar",
+    "markers": [
+      "Bemar"
+    ]
+  },
+  {
+    "code": "REAL_TOBACCO",
+    "name": "Real Tobacco",
+    "markers": [
+      "Real Tobacco"
+    ]
+  },
+  {
+    "code": "DELIKATESY_HELLO",
+    "name": "Delikatesy HELLO",
+    "markers": [
+      "Delikatesy HELLO"
+    ]
+  },
+  {
+    "code": "EMMA_MARKET",
+    "name": "Emma Market",
+    "markers": [
+      "Emma Market"
+    ]
+  },
+  {
+    "code": "SOKOL_MARKET",
+    "name": "Sokół Market",
+    "markers": [
+      "Sokół Market"
+    ]
+  },
+  {
+    "code": "EUROSKLEP",
+    "name": "EuroSklep",
+    "markers": [
+      "EuroSklep"
+    ]
+  },
+  {
+    "code": "DRINKS",
+    "name": "Drinks",
+    "markers": [
+      "Drinks"
+    ]
+  },
+  {
+    "code": "DELIKATESY_SZUBRYT",
+    "name": "Delikatesy Szubryt",
+    "markers": [
+      "Delikatesy Szubryt"
+    ]
+  },
+  {
+    "code": "ARGO",
+    "name": "Argo",
+    "markers": [
+      "Argo"
+    ]
+  },
+  {
+    "code": "ENERGY-ECO",
+    "name": "Energy-Eco",
+    "markers": [
+      "Energy-Eco"
+    ]
+  }
 ]

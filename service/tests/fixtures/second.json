@@ -1,0 +1,194 @@
+{
+  "ocr_lines": [
+    {
+      "text": "Lewiatan",
+      "confidence": 0.9999906420707703,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9999426007270813,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.969642162322998,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9992454051971436,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.999733567237854,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9999234676361084,
+      "box": null
+    },
+    {
+      "text": "PARAGONFISKALNY",
+      "confidence": 0.9999869465827942,
+      "box": null
+    },
+    {
+      "text": "BATON KRÓWKA 40G PROMYK A",
+      "confidence": 0.9825257658958435,
+      "box": null
+    },
+    {
+      "text": "1SZT. ×2,49 2,49A",
+      "confidence": 0.9606953859329224,
+      "box": null
+    },
+    {
+      "text": "BATON KRÓWKA 40G PROMYK A",
+      "confidence": 0.9871986508369446,
+      "box": null
+    },
+    {
+      "text": "1SZT. ×2,49 2,49A",
+      "confidence": 0.970705509185791,
+      "box": null
+    },
+    {
+      "text": "NAPÓJ BLAST BOOST 250ML",
+      "confidence": 0.9896178841590881,
+      "box": null
+    },
+    {
+      "text": "PUSZ A",
+      "confidence": 0.9961778521537781,
+      "box": null
+    },
+    {
+      "text": "1szt ×2,99 2,99A",
+      "confidence": 0.9553112983703613,
+      "box": null
+    },
+    {
+      "text": "NAPÓJ BLAST BOOST 250ML",
+      "confidence": 0.9814587235450745,
+      "box": null
+    },
+    {
+      "text": "PUSZ 3 A",
+      "confidence": 0.9612233638763428,
+      "box": null
+    },
+    {
+      "text": "1szt x2,99 2,99A",
+      "confidence": 0.9920423626899719,
+      "box": null
+    },
+    {
+      "text": "SPRZEDAZ OPODATKOWANA A",
+      "confidence": 0.9976920485496521,
+      "box": null
+    },
+    {
+      "text": "10,96",
+      "confidence": 0.9998458027839661,
+      "box": null
+    },
+    {
+      "text": "PTU A 23%",
+      "confidence": 0.9992204308509827,
+      "box": null
+    },
+    {
+      "text": "2,05",
+      "confidence": 0.9994525909423828,
+      "box": null
+    },
+    {
+      "text": "SUMA PTU",
+      "confidence": 0.9998005032539368,
+      "box": null
+    },
+    {
+      "text": "2,05",
+      "confidence": 0.9945886731147766,
+      "box": null
+    },
+    {
+      "text": "SUMA",
+      "confidence": 0.9999450445175171,
+      "box": null
+    },
+    {
+      "text": "PLN",
+      "confidence": 0.9999960064888,
+      "box": null
+    },
+    {
+      "text": "10,96",
+      "confidence": 0.9988468885421753,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9800329804420471,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9997726082801819,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9968920946121216,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9833701848983765,
+      "box": null
+    },
+    {
+      "text": "2026-10-06 14:59",
+      "confidence": 0.9991905689239502,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9982683062553406,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9015623927116394,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9991006851196289,
+      "box": null
+    },
+    {
+      "text": "",
+      "confidence": 0.9999877214431763,
+      "box": null
+    }
+  ],
+  "confirmed_products": [
+    {
+      "sku": "BLAST-ENERGY-KLASYK",
+      "quantity": 1,
+      "unit_price": 2.99,
+      "line_total": 2.99
+    },
+    {
+      "sku": "BLAST-BOOST-CLEMENTINE",
+      "quantity": 1,
+      "unit_price": 2.99,
+      "line_total": 2.99
+    }
+  ],
+  "expected_spend": 5.98
+}

@@ -106,3 +106,37 @@ git push -u origin main
 ```
 
 Do not commit `.env`, model caches or receipt images.
+
+## Run without Docker
+
+Use Python 3.11 and a virtual environment. On Windows, from the repository root
+in PowerShell:
+
+```powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r service\requirements.txt "paddlepaddle>=3.2,<4"
+Copy-Item .env.example .env  # first setup only; preserve an existing .env
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --app-dir service --env-file .env --host 127.0.0.1 --port 8088
+```
+
+Open `http://localhost:8088` on that computer, upload a JPG/PNG/WEBP receipt and
+click **Analizuj paragon**. Keep the terminal open. The first analysis downloads
+models. Native execution was verified on Linux in Codex; Windows installation
+can depend on the available PaddlePaddle wheel and system libraries.
+
+The default `.env.example` disables oneDNN/MKLDNN to avoid the runtime failure
+observed with PaddlePaddle 3.3.1. Add `PADDLE_PDX_ENABLE_MKLDNN_BYDEFAULT=False`
+and `OMP_NUM_THREADS=1` to an older `.env` if necessary.
+
+## What the first receipt tests established
+
+Carrefour's generic BLAST description does not establish the cactus flavor.
+Lewiatan printed two BOOST descriptions for a user-confirmed Very Nice Classic
+and Boost Clementine. Keep retailer text, detected brand and confirmed SKU
+separate. Generic descriptions now produce `manual_review`, `sku: null` and
+retained quantities/prices. They must not become automatic flavor aliases.
+
+The regression fixtures preserve anonymized OCR product/price lines and the
+user-confirmed labels. Their labels are not fed into matching. Expected BLAST
+totals are 1.99 PLN for Carrefour and 5.98 PLN for Lewiatan. See `docs/API.md`
+for the response semantics.
